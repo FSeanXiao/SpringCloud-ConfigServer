@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/FSeanXiao/SpringCloud-ConfigServer
+          username: 1620241869@qq.com
+          password: Xiao@0073java
+          search-paths: config
